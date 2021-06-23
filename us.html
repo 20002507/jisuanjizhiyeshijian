@@ -1,0 +1,88 @@
+<!DOCTYPE >
+<html >
+
+<head>
+  <title>管理员登陆</title>
+  <link href="css/css.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+
+  <div class="serch">
+    <dl>
+      <dt><a href="index.html">
+          <img src="images/logo.jpg" /></a></dt>
+      <dd>
+        <from>
+          <input type="text" class="searchput">
+          <input type="button" class="searchbtn">
+        </from>
+      </dd>
+      <ul>
+        <li><a href="login.html">登陆</a></li>
+        <li><a href="res.html">注册</a></li>
+       </ul>
+    </dl>
+  </div>
+  <div class="nav">
+    <div class="main">
+
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        
+        <li><a  href="news.html">新闻信息</a></li>
+       
+        	<li><a href="us.html">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="layout"> <img src="images/contact.png" width="1100"> <br>
+      <div class="span3"> 
+          <!-- Contacts -->
+          <div class="headline">
+              <h3>联系方式</h3>
+          </div>
+          <ul class="unstyled who margin-bottom-20">
+              <li><a href="#"><i class="icon2"></i>sichuang@mail.com</a></li>
+              <li><a href="#"><i class="icon3"></i>86 xxxx xxxx</a></li>
+              <li><a href="#"><i class="icon4"></i>http://www.xxx.com</a></li>
+          </ul>
+          
+          <!-- Business Hours -->
+          <div class="headline">
+              <h3>服务时间</h3>
+          </div>
+          <ul class="unstyled">
+              <li><strong>周一到周五:</strong> 10am 到 21pm</li>
+              <li><strong>周六和周日:</strong> 9am 到 23pm</li>
+          </ul>
+      </div>
+      <div class="span9">
+          <div class="headline">
+              <h3>联系我们</h3>
+          </div>
+          <p>你也游览过这个网站吗？<br>
+              快来留下你精彩的意见吧～</p>
+          <br>
+          <form method="post" action="message_do.html" name="send" onsubmit="return Check()">
+              <label class="labellist">姓名</label>
+              <input type="text" name="name" class="span7 border-radius-none">
+              <label class="labellist">邮箱 <span class="color-red">*</span></label>
+              <input type="text" name="title" class="span7 border-radius-none">
+              <label class="labellist">内容</label>
+              <textarea rows="8" class="span10" name="message"></textarea>
+              <p>
+                  <button type="submit" class="btn-u">提交</button>
+              </p>
+          </form>
+      </div>
+  </div>
+  </div>
+  <div class="foot"> 版权所有 </div>
+
+</body>
+
+</html>
